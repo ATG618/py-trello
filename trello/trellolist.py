@@ -171,4 +171,6 @@ class List(TrelloBase):
     def set_pos(self, position):
         self.move(position)
 
+
+
 from trello.card import Card
