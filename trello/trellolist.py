@@ -73,7 +73,7 @@ class List(TrelloBase):
         labels_str = ""
         if labels:
             for label in labels:
-                labels_str += label.id + ","
+                labels_str += label + "," #changed from label.id to label
 
         members_str = ""
         if assign:
